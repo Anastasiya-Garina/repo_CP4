@@ -19,4 +19,4 @@ for i in range(len(massiv)):
         mas_povtor.append(massiv[i])
     i += 1
 #print(massiv)
-print(set(mas_povtor))
+print(*set(mas_povtor))
